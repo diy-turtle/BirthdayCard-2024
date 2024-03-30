@@ -31,3 +31,7 @@ body{
     margin: auto;
     background-color: var(--background_color_1);
 }
+
+#sns_link{
+    display: inline-block;
+}
