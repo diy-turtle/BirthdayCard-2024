@@ -4,7 +4,6 @@
 ![GitHub Release](https://img.shields.io/github/v/release/diy-turtle/BirthdayCard-2024)
 
 2024 年度用 Web 版バースデーカード。
-![スクリーンショット]()
 
 
 ## 特徴
