@@ -16,11 +16,11 @@
  1. **ファイルのダウンロードまたはクローン**
 以下のいずれかの方法で、バースデーカードのファイルを自分のPCにダウンロードしてください。
     - ダウンロード
-        - **https://example.com** から最新版のZIPファイルをダウンロードし、解凍します。
+        - **https://github.com/diy-turtle/BirthdayCard-2024.git** から最新版のZIPファイルをダウンロードし、解凍します。
     - クローン
         - ターミナルまたはGit GUIツールを使って、以下のコマンドを実行します。
 ```
-git clone https://github.com/example/BirthdayCard-2024.git
+git clone https://github.com/diy-turtle/BirthdayCard-2024.git
 ```
 
 
@@ -64,5 +64,4 @@ https://example.com/index.html#あい, 2024.05.05
 編集した URL を送信します。
 
 ## 動作確認環境
-- iPadOS 17.4.1(Safari 604.1)
-- Android 14(Chrome)
+- 動作確認は、まだできていません。
