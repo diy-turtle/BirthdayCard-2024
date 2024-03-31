@@ -1,7 +1,7 @@
 // 送り主の情報
-const NAME = "Pasubu.book";
-const ACCOUNT_NAME = "@pasububook";
-const SNS_ACCOUNT_LINK = "https://example.com";
+const NAME = "";
+const ACCOUNT_NAME = "";
+const SNS_ACCOUNT_LINK = "";
 
 // 送り主の情報の変更
 var from_name_content = document.getElementById("from_name");
