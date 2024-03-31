@@ -5,11 +5,17 @@ const SNS_ACCOUNT_LINK = "";
 
 // 送り主の情報の変更
 var from_name_content = document.getElementById("from_name");
-from_name_content.innerHTML = NAME;
+if (NAME) {
+    from_name_content.innerHTML = NAME;
+}
 
 var account_name_content = document.getElementById("sns_link");
-account_name_content.innerHTML = ACCOUNT_NAME;
-account_name_content.href = SNS_ACCOUNT_LINK;
+if (ACCOUNT_NAME) {
+    account_name_content.innerHTML = ACCOUNT_NAME;
+}
+if (SNS_ACCOUNT_LINK) {
+    account_name_content.href = SNS_ACCOUNT_LINK;
+}
 
 // 誕生日に関連するデータ
 function apply_birthday_data(){
@@ -25,10 +31,14 @@ function apply_birthday_data(){
 
     // 誕生日の人用にデータを変更
     var friend_name_content = document.getElementById("friend_name");
-    friend_name_content.textContent = birthday_data[0];
+    if (birthday_data[0]) {
+        friend_name_content.textContent = birthday_data[0];
+    }
 
     var birthday_date_content = document.getElementById("birthday_date");
-    birthday_date_content.textContent = birthday_data[1];
+    if (birthday_data[1]) {
+        birthday_date_content.textContent = birthday_data[1];
+    }
 }
 
 window.onload = apply_birthday_data;
