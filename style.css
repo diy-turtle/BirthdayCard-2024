@@ -3,11 +3,11 @@
     padding: 0;
 }
 :root{
-    --text: white;
-    --link_text: rgb(0, 0, 255);
-    --sub_text: rgb(51, 0, 0);
-    --background_color_1: rgb(0, 0, 160);
-    --background_color_2: rgb(0, 0, 51);
+    --text: #f9f9fa;
+    --link_text: #0060df;
+    --sub_text: #b1b1bc;
+    --background_color_1: #054096;
+    --background_color_2: #09204d;
 }
 
 body{
@@ -30,6 +30,9 @@ body{
     border-radius: 20px;
     margin: auto;
     background-color: var(--background_color_1);
+}
+img{
+    width: 300px;
 }
 
 #sns_link{
