@@ -23,18 +23,27 @@ body{
     height: 100dvh;
 }
 #main_contents{
-    width: 100%;
-    max-width: 400px;
+    width: 90%;
+    max-width: 500px;
     padding: 50px 20px;
     border: none;
     border-radius: 20px;
-    margin: auto;
+    margin: 50px auto;
     background-color: var(--background_color_1);
 }
 img{
-    width: 300px;
+    width: 90%;
+    margin: 30px auto;
 }
 
-#sns_link{
+a{
     display: inline-block;
+    color: var(--link_text);
+}
+a:visited{
+    color: var(--link_text);
+}
+
+#footer_content{
+    margin: 20px;
 }
