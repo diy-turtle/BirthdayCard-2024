@@ -4,7 +4,7 @@
 ![GitHub Release](https://img.shields.io/github/v/release/diy-turtle/BirthdayCard-2024)
 
 2024 年度用 Web 版バースデーカード。
-![スクリーンショット](https://raw.githubusercontent.com/diy-turtle/cdn/main/BirthdayCard-2024/screenshot_1_0_0.PNG)
+![スクリーンショット](https://github.com/diy-turtle/BirthdayCard-2024/assets/163115290/746ed77a-2c8a-4daf-b99f-a0cea4307924)
 
 ## 特徴
 - **安心・安全** : 送られた人の情報は、全て送られた人の端末上で編集・加工されるため、インターネットに情報がアップロードされることは絶対にありません。
