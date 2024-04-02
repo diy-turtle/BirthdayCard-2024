@@ -25,7 +25,7 @@ function apply_birthday_data(){
 
     var birthday_data = []
     if (raw_birthday_data) {
-        birthday_data = raw_birthday_data.split(", ");
+        birthday_data = raw_birthday_data.split(",");
         console.log(birthday_data);
     }
 
